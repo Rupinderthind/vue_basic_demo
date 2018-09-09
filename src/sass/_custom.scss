@@ -1,0 +1,205 @@
+form .form-group{
+  position: relative;
+  margin-bottom: 20px;
+}
+.hasError{
+  color: red;
+  font-size: 11px;
+  position: absolute;
+  bottom: -20px;
+  margin: 0;
+}
+.errorMsg{
+  text-align: center;
+  color: red;
+}
+.colorRed{
+  color: red
+}
+.account-box{
+  overflow: auto;
+}
+.haveAccount{
+  text-align: center;
+}
+.noBottomPadding{
+  padding-bottom: 0;
+}
+.haveAccount{
+  padding-top: 15px;
+}
+.el-select{
+  width: 100%; 
+}
+.content-wrapper{
+  min-height: calc(100vh - 122px);
+}
+.account-box input[type="text"], .account-box input[type="email"], .account-box input[type="number"], .account-box input[type="password"], .content-wrapper input[type="text"]{
+  height: 40px;
+}
+.error-header{
+  padding: 15px 15px 30px;
+}
+.pull-left-search:after{
+  pointer-events: none;
+}
+.wrapper{
+  height: auto
+}
+.main-footer{
+  background: #fff;
+}
+.dashboard-wrapper{
+  padding-bottom: 50px;
+}
+
+.gamesValues{
+  border: solid 1px #d8dce5;
+  padding: 20px 25px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.addNew{
+  display: inline-block;
+  font-weight: 700;
+  cursor: pointer;
+}
+.haveRemoveBtn{
+  display: block;
+}
+.haveRemoveBtn a{
+  font-size: 12px;
+  cursor: pointer
+}
+.swal-text{
+  text-align: center
+}
+.el-upload__input{
+  display: none !important;
+}
+.vdp-datepicker.form-control{
+  height: 40px;
+  padding: 0;
+  input{
+    padding: 6px 12px;
+    height: 38px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+  .vdp-datepicker__calendar .cell{
+    height: 30px;
+    line-height: 30px;
+  }
+}
+.skin-dark .sidebar-menu > li > a.router-link-exact-active{
+  border-color: #518eb9;
+}
+.m_l_10{
+  margin-left: 10px
+}
+.m_r_10{
+  margin-right: 10px
+}
+.el-dialog__body iframe{
+  width: 100%;
+  min-height: 400px
+}
+.el-dialog__body iframe img{
+  width: 100%;
+}
+.previewContainer{
+  table{
+    background: #fff;
+  }
+}
+.sidebar-menu > li > a > .fa, .sidebar-menu > li > a > .glyphicon, .sidebar-menu > li > a > i, .sidebar-menu > li > a > .ion{
+  top: 0;
+}
+
+.box-body {
+  .table {
+    > thead {
+      > tr {
+        > th{
+          border-bottom: 1px solid #e6ebf5;
+          color: #878d99;
+          padding: 15px 10px;
+        }
+      }
+    }
+    > tbody {
+      > tr {
+        > td {
+          padding: 15px 10px;
+          border-bottom: 1px solid #e6ebf5;
+          vertical-align: middle
+        }
+      }
+    }
+  }
+}
+.removeCross{
+  .el-dialog__headerbtn{
+    display: none; 
+  }
+}
+.content-wrapper .el-date-editor.el-input{
+  width: 100%;
+}
+.content{
+  position: relative;
+}
+.loader{
+  position: fixed;
+  width: calc(100% - 230px);
+  height: calc(100% - 65px);
+  left: 230px;
+  top: 65px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
+  .outerCon{
+    display: table;
+    width: 100%;
+    height: 100%;
+    .innerCon{
+      text-align: center;
+      vertical-align: middle;
+      display: table-cell;
+      p{
+        margin: 0;
+        font-size: 20px;
+      }
+    }
+  }
+}
+.loginSignupBox{
+  padding-bottom: 50px;
+  > .account-box{
+    max-width: 720px;
+    margin: auto;
+    padding: 30px;
+  }
+  .heading{
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.sidebar-collapse{
+  .loader{
+    width: calc(100% - 50px);
+    left: 50px;
+  }
+}
+.el-select-dropdown__item::first-letter{
+  text-transform: capitalize;
+}
+.main-footer{
+  padding: 15px;
+  background: #ddd;
+}
+.navbar-default .navbar-nav > li > a{
+  cursor: pointer
+}
